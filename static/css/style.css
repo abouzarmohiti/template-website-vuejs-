@@ -31,7 +31,7 @@ We may release future updates so it will overwrite this file. it's better and sa
     5.1: About Text
     5.2: About Image
 06: Work Process
-07: Service 
+07: Service
 08: Team
 09: Internship
 10: Testimonial
@@ -39,7 +39,7 @@ We may release future updates so it will overwrite this file. it's better and sa
 12: Company Logo
 13: Contact
 14: Footer
-15: Page - About 
+15: Page - About
 16: Page - Blog
 17: Page - Search Result
 18: Page - Lawyer Details
@@ -103,7 +103,7 @@ button[type=submit] { cursor: pointer; }
 textarea { resize: none; }
 img {
     max-width: 100%;
-    height: auto; 
+    height: auto;
 }
 ul, ol {
     margin: 0;
@@ -125,8 +125,8 @@ a:focus {
     outline: none;
 }
 
-h1, h2, h3, h4, h5, h6, 
-.h1, .h2, .h3, .h4, .h5, .h6 { 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Playfair Display', serif;
     color: #171717;
     line-height: 1.3;
@@ -137,7 +137,7 @@ h1, .h1 { font-size: 48px; }
 h2, .h2 { font-size: 30px; }
 h3, .h3 { font-size: 22px; }
 h4, .h4 { font-size: 18px; }
-h5, .h5 { font-size: 16px; } 
+h5, .h5 { font-size: 16px; }
 h6, .h6 { font-size: 14px; }
 
 body {
@@ -205,7 +205,7 @@ select.parsley-error {
     padding-left: 7.5px;
 }
 
-.form-control { 
+.form-control {
     font-size: 16px;
     border-radius: 0px;
     min-height: 50px;
@@ -216,7 +216,7 @@ textarea.form-control {
     min-height: 155px;
     padding: 20px 30px;
 }
-.form-control:hover, 
+.form-control:hover,
 .form-control:focus,
 .form-control:active {
     box-shadow: none;
@@ -317,7 +317,7 @@ label input[type=radio] {
     display: inline-block;
     position: relative;
 }
-.lawFirm--section-title.text-left h2 span { 
+.lawFirm--section-title.text-left h2 span {
     margin-left: 14px;
     position: relative;
 }
@@ -330,7 +330,7 @@ label input[type=radio] {
     height: 4px;
     background-color: #d2ad27;
 }
-.lawFirm--section-title.text-center h2 span { 
+.lawFirm--section-title.text-center h2 span {
     display: block;
     position: relative;
     padding-top: 30px;
@@ -511,6 +511,7 @@ label input[type=radio] {
 /* 2.2: Nav Menu */
 .lawFirm--navbar-cover {
     position: absolute;
+    background-color: #000;
     top: 0;
     width: 100%;
     z-index: 99;
@@ -521,6 +522,7 @@ label input[type=radio] {
     display: inline-block;
     position: relative;
     margin-left: -4px;
+
 }
 .lawFirm--header .lawFirm--nav-menu > ul > li:first-child {
     margin-left: 0px;
@@ -553,7 +555,7 @@ label input[type=radio] {
     color: #d2ad27;
 }
 .lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children{
-    position: relative;   
+    position: relative;
 }
 .lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children > .sub-menu {
     position: absolute;
@@ -570,7 +572,7 @@ label input[type=radio] {
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     visibility: hidden;
-    box-shadow: 0px 5px 10px rgba(0,0,0,.05);    
+    box-shadow: 0px 5px 10px rgba(0,0,0,.05);
 }
 .lawFirm--header .lawFirm--nav-menu > ul > li.menu-item-has-children > .sub-menu {
     top: 100%;
@@ -706,7 +708,7 @@ label input[type=radio] {
     top: 50px;
     right: 40px;
     font-size: 22px;
-    cursor: pointer !important; 
+    cursor: pointer !important;
 }
 .lawFirm--about-in-canvas p {
     color: #fff;
@@ -765,7 +767,7 @@ label input[type=radio] {
 
 
 /*=============================================
-    03: Banner Slider 
+    03: Banner Slider
 ==============================================*/
 /* 3.1: Main Slider */
 .lawFirm--banner-slider.owl-carousel .owl-nav {
@@ -807,7 +809,7 @@ label input[type=radio] {
     color: #fff;
 }
 .lawFirm--banner-slider-item-image img {
-    padding: 100px 0px 0px 0px; 
+    padding: 100px 0px 0px 0px;
 }
 
 
@@ -862,7 +864,7 @@ label input[type=radio] {
     min-width: 100%;
     border-radius: 0px;
     border: 1px solid #d2ad27;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.05);  
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
 }
 .nice-select:after {
 	height: 6px;
@@ -1226,7 +1228,7 @@ label input[type=radio] {
 }
 .lawFirm--contact .lawFirm--filter {
     display: inline-block;
-} 
+}
 .lawFirm--contact .lawFirm--filter .form-control {
     padding-right: 80px;
     padding-left: 40px;
@@ -1639,7 +1641,7 @@ label input[type=radio] {
   .post-meta-info .btn {
     margin-top: 30px;
   }
-  
+
   .post-details-cover .post-thumb-cover .post-thumb {
     margin-bottom: 40px;
   }
@@ -1796,8 +1798,8 @@ label input[type=radio] {
     border-top: 1px solid #f3f3f3;
     border-bottom: 0px;
   }
-  
-  
+
+
   .post-comment-form-cover {
     padding: 30px 0px 0px 0px;
   }
@@ -1815,7 +1817,7 @@ label input[type=radio] {
   .post-comment-form-cover form .btn-primary:before {
     bottom: 8px;
   }
-  
+
   .my-post-category {
     margin-bottom: 30px;
   }
@@ -1849,7 +1851,7 @@ label input[type=radio] {
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
-  
+
   blockquote {
     padding: 40px;
     background-color: #f9f9f9;
