@@ -1,16 +1,19 @@
 <template>
-  <div>
+  <divs>
     <AppHeader/>
+    <Banner/>
     <nuxt class="paddingRuter"/>
-  </div>
+  </divs>
 </template>
 
 
 <script>
   import AppHeader from '~/components/AppHeader.vue'
+  import Banner from '~/components/Banner.vue';
 
   export default {
      components: {
+       Banner,
        AppHeader
     }
   }

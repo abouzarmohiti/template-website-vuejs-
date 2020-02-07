@@ -77,7 +77,7 @@
 
                 <!-- Logo -->
                 <div class="lawFirm--logo pt-35 pb-20">
-                    <a href="#"><img src="assets/images/logo.png" alt="" class="img-fluid" data-rjs="2"></a>
+                    <a href="#"><img src="images/logo.png" alt="" class="img-fluid" data-rjs="2"></a>
                 </div>
                 <!-- End of Logo -->
 

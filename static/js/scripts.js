@@ -131,7 +131,6 @@ window.onload = function() {
     });
     $('.lawFirm--header .lawFirm--nav-menu ul li.menu-item-has-children .submenu-button').append('<i class="fa fa-angle-down"></i>');
 
-
     /* 03: Owl Carousel
     ==============================================*/
     /* 3.1: Banner Slider */
@@ -140,7 +139,7 @@ window.onload = function() {
       items: 1,
       nav: true,
       dots: false,
-      navText: ['<img src="assets/images/slider-images/nav/left-hover.png">', '<img src="assets/images/slider-images/nav/right-hover.png">'],
+      navText: ['<img src="/images/slider-images/nav/left-hover.png">', '<img src="/images/slider-images/nav/right-hover.png">'],
       mouseDrag: false,
       loop: true,
       onInitialized: counter,
@@ -173,6 +172,7 @@ window.onload = function() {
 
     var $owlCarousel = $('.owl-carousel');
     $owlCarousel.each(function () {
+      alert("aaaaaa");
       var $t = $(this);
 
       $t.owlCarousel({

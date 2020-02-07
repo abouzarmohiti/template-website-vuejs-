@@ -17,13 +17,14 @@ export default {
       {rel: 'stylesheet', type: 'text/css', href: '/css/bootstrap.min.css'},
       {rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
       {rel: 'stylesheet', type: 'text/css', href: '/css/owl.carousel.min.css'},
+      {rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/css/nice-select.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/css/style.css'},
       {rel: 'stylesheet', type: 'text/css', href: '/css/responsive.css'}
 
     ], script: [
-      {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'},
-      /*{src: 'js/jquery-3.3.1.min.js'},*/
+     /* {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'},*/
+      {src: 'js/jquery-3.3.1.min.js'},
       {src: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'},
       {src: 'js/bootstrap.bundle.min.js'},
       {src: 'js/owl.carousel.min.js'},
