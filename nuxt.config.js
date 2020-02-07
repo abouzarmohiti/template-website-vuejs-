@@ -23,8 +23,8 @@ export default {
       {rel: 'stylesheet', type: 'text/css', href: '/css/responsive.css'}
 
     ], script: [
-     /* {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'},*/
-      {src: 'js/jquery-3.3.1.min.js'},
+      {src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'},
+     /* {src: 'js/jquery-3.3.1.min.js'},*/
       {src: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'},
       {src: 'js/bootstrap.bundle.min.js'},
       {src: 'js/owl.carousel.min.js'},

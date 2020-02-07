@@ -172,7 +172,6 @@ window.onload = function() {
 
     var $owlCarousel = $('.owl-carousel');
     $owlCarousel.each(function () {
-      alert("aaaaaa");
       var $t = $(this);
 
       $t.owlCarousel({
@@ -422,7 +421,6 @@ window.onload = function() {
     /* 10: Preloader
     ==============================================*/
     $(window).on('load', function () {
-      alert("aaaaaaaaaaaaaa")
       $('.preloader').fadeOut(2000);
     });
 
